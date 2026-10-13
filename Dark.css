@@ -1,0 +1,161 @@
+﻿/* =========================
+   DARK THEME
+========================= */
+
+body.dark-theme {
+    background-color: #212529;
+    color: white;
+}
+
+    body.dark-theme .navbar {
+        background-color: #212529;
+        color: white;
+        border-color: #444;
+    }
+
+    body.dark-theme .sidebar {
+        background-color: #212529;
+        color: white;
+        border-color: #444;
+    }
+
+    body.dark-theme .main-content {
+        background-color: #212529;
+        color: white;
+    }
+
+    body.dark-theme .sidebar__link,
+    body.dark-theme .sidebar__submenu-link,
+    body.dark-theme .nested-dropdown-link,
+    body.dark-theme .sidebar__nested-link {
+        color: white;
+    }
+
+    body.dark-theme .dropdown-arrow,
+    body.dark-theme .nested-arrow {
+        color: #aaa;
+    }
+/* =========================
+   DARK THEME - ENTIRE PAGE
+========================= */
+
+body.dark-theme {
+    background-color: #181a1b;
+    color: #e5e7eb;
+}
+
+    /* Navbar */
+    body.dark-theme .navbar,
+    body.dark-theme .top-navbar {
+        background-color: #212529;
+        border-color: #343a40;
+        color: #e5e7eb;
+    }
+
+    /* Sidebar */
+    body.dark-theme .sidebar {
+        background-color: #212529;
+        border-right: 1px solid #343a40;
+        color: #e5e7eb;
+    }
+
+        /* Sidebar links */
+        body.dark-theme .sidebar .sidebar__link,
+        body.dark-theme .sidebar .sidebar__submenu-link,
+        body.dark-theme .sidebar .sidebar__nested-link {
+            color: #dee2e6;
+        }
+
+            /* Active sidebar link */
+            body.dark-theme .sidebar .sidebar__link.active,
+            body.dark-theme .sidebar .sidebar__submenu-link.active,
+            body.dark-theme .sidebar .sidebar__nested-link.active {
+                background-color: #343f65 !important;
+                color: #ffffff !important;
+            }
+
+
+/* ===== FIX MAIN CONTENT DARK BACKGROUND ===== */
+
+body.dark-theme {
+    background-color: #181a1b !important;
+    color: #e5e7eb;
+}
+
+    /* Main content area */
+    body.dark-theme .main-content {
+        background-color: #181a1b !important;
+        color: #e5e7eb !important;
+    }
+
+        /* Common containers inside main content */
+        body.dark-theme .main-content > div,
+        body.dark-theme .main-content .container,
+        body.dark-theme .main-content .container-fluid,
+        body.dark-theme .main-content .row {
+            background-color: transparent;
+            color: #e5e7eb;
+        }
+
+        /* Breadcrumbs and section headings */
+        body.dark-theme .main-content h1,
+        body.dark-theme .main-content h2,
+        body.dark-theme .main-content h3,
+        body.dark-theme .main-content h4,
+        body.dark-theme .main-content h5,
+        body.dark-theme .main-content h6,
+        body.dark-theme .main-content p,
+        body.dark-theme .main-content label,
+        body.dark-theme .main-content .breadcrumb-item,
+        body.dark-theme .main-content .text-muted {
+            color: #d1d5db !important;
+        }
+
+        /* Cards and panels */
+        body.dark-theme .main-content .card,
+        body.dark-theme .main-content .modal-content,
+        body.dark-theme .main-content .list-group-item {
+            background-color: #212529 !important;
+            color: #e5e7eb !important;
+            border-color: #343a40 !important;
+        }
+
+        /* White background utility */
+        body.dark-theme .main-content .bg-white {
+            background-color: #212529 !important;
+            color: #e5e7eb !important;
+        }
+
+        /* Tables */
+        body.dark-theme .main-content .table {
+            --bs-table-bg: #212529;
+            --bs-table-color: #e5e7eb;
+            --bs-table-border-color: #495057;
+            --bs-table-striped-bg: #272b2f;
+            --bs-table-striped-color: #e5e7eb;
+            --bs-table-hover-bg: #343a40;
+            --bs-table-hover-color: #ffffff;
+        }
+
+        /* Form controls */
+        body.dark-theme .main-content .form-control,
+        body.dark-theme .main-content .form-select,
+        body.dark-theme .main-content textarea {
+            background-color: #272b2f !important;
+            color: #e5e7eb !important;
+            border-color: #495057 !important;
+        }
+
+            body.dark-theme .main-content .form-control::placeholder,
+            body.dark-theme .main-content textarea::placeholder {
+                color: #adb5bd !important;
+            }
+
+    /* Navbar */
+    body.dark-theme .navbar,
+    body.dark-theme .top-navbar,
+    body.dark-theme nav {
+        background-color: #212529 !important;
+        color: #e5e7eb !important;
+        border-color: #343a40 !important;
+    }
