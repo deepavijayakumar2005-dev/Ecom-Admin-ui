@@ -1,0 +1,838 @@
+﻿<div class="container-fluid mb-3">
+    <div class="row ">
+        <div class="col-md-5 mt-3">
+            <h5><strong>Dashboard</strong></h5>
+            <p class="notification-time">Monitor performance sales user and support from one clean work space</p>
+        </div>
+        <div class="col-md-7 mt-4 d-flex justify-content-end p-0">
+            <button type="button" class="   btn btn-primary badge mb-3 me-3 "><i class="bi bi-box-arrow-in-down me-1"></i>  Export</button>
+            <button type="button" class="  btn btn-secondary badge me-3 mb-3"><i class="bi bi-file-earmark-plus me-1"></i>  Create Report</button>
+        </div>
+    </div>
+    <div class="row  mt-3">
+        <div class="col-md-3">
+            <div class="card-box  border border-1 rounded-3 shadow  p-2 ">
+
+                <p class="notification-time text-dark mb-0">
+                    Weekly sales
+                </p>
+
+                <div class="d-flex align-items-center justify-content-between">
+
+                    <h4 class="mb-0">$46,00</h4>
+
+                    <div id="weeklySalesChart"></div>
+
+                </div>
+
+                <button class="rounded-pill green border-0 badge text-success">
+                    +3.5%
+                </button>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card-box border border-1 rounded-3 shadow  p-2 ">
+
+                <p class="notification-time text-dark mb-0">
+                    Total order
+                </p>
+
+                <div class="d-flex align-items-center justify-content-between">
+
+                    <h4 class="mb-0">54.8K</h4>
+
+                    <div id="totalOrderChart"></div>
+
+                </div>
+
+                <button class="rounded-pill blue border-0 badge text-primary">
+                    +3.5%
+                </button>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card-box border border-1 rounded-3 shadow  p-2 ">
+
+                <p class="notification-time text-dark mb-0">
+                    Weekly sales
+                </p>
+
+                <div class="d-flex align-items-center justify-content-between">
+                    <ul>
+                        <li class="notification-time text-dark"><i class="bi bi-circle-fill text-primary"></i>samsung</li>
+                        <li class="notification-time text-dark"><i class="bi bi-circle-fill text-info"></i> Apple</li>
+                        <li class="notification-time text-dark"><i class="bi bi-circle-fill text-secondary"></i> huawei</li>
+                    </ul>
+                    <div id="marketShareChart"></div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card-box border border-1 rounded-3 shadow total-order p-2">
+
+                <p class="notification-time text-dark mb-0">
+                    Total order
+                </p>
+
+                <div class="d-flex align-items-center justify-content-between">
+
+                    <i class="bi bi-brightness-high sun"></i>
+                    <div>
+                        <h6 class="  mb-0 me-4">Madurai city</h6>
+
+                        <div><p class="notification-time text-danger mb-1">sunny</p></div>
+
+                        <div>
+                            <p class="notification-time mb-0">precioitation-50%</p>
+                            <div> <h4 class="text-primary ms-4">32°</h4> </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+
+        <div class="col-md-5 mt-3">
+            <strong class="">clients</strong>
+            <div class=" border border-1 rounded-3 shadow mt-2">
+                <table class="table mb-0">
+                    <thead>
+                        <tr>
+                            <th class="size">profile</th>
+                            <th class="size">Hour race</th>
+                            <th class="size">extra class</th>
+                            <th class="size">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+
+                                <div class="customer-profile">
+                                    <img src="~/lib/image/pro avartar.jpg" class="customer-img" />
+                                    <span class="size">Deepa</span>
+                                </div>
+                            </td>
+                            <td>
+                                <span class="size mt-3">$56,00</span>
+                            </td>
+                            <td class="size mt-3">+53</td>
+                            <td><button type="button" class="rounded-3 green border-0 badge text-success">available</button></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+
+                                <div class="customer-profile">
+                                    <img src="~/lib/image/pro avartar.jpg" class="customer-img" />
+                                    <span class="size">Deepa</span>
+                                </div>
+                            </td>
+                            <td>
+                                <span class="size mt-2">$56,00</span>
+                            </td>
+                            <td class="size">+53</td>
+                            <td><button type="button" class="rounded-3 green border-0 badge text-success">available</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <div class="customer-profile">
+                                    <img src="~/lib/image/pro avartar.jpg" class="customer-img" />
+                                    <span class="size">Deepa</span>
+                                </div>
+                            </td>
+                            <td>
+                                <span class="size mt-2">$56,00</span>
+                            </td>
+                            <td class="size">+53</td>
+                            <td><button type="button" class="rounded-3 blue border-0 badge text-primary">available</button></td>
+
+
+                    </tbody>
+                </table>
+                <a href="" class="size d-flex justify-content-center mt-2">View all <i class="bi bi-chevron-right"></i></a>
+                <div class="">
+                    <p class="storage-text mt-2 ms-2">
+                        Using Storage 1735.06 MB of 2 GB
+                    </p>
+
+                    <div id="storageChart" class="mb-1 mt-0"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-md-7 mt-5 ">
+            <div class="border border-1 rounded-3 shadow  ">
+                <div class="hstack">
+                    <p class="size ms-3 mt-2">Profit and expences</p>
+                    <select class="rounded-3 size me-3 ms-auto mt-2">
+                        <option selected>Last month</option>
+                        <option>last year</option>
+                        <option>last week</option>
+                    </select>
+                </div>
+                <div id="mixedChart"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mt-4">
+            <div class="border border-1 rounded-3 shadow">
+                <h6 class="mt-3 ms-3">upcoming schedules</h6>
+                <div class="timeline-item ms-3 mt-3">
+                    <div class="timeline-time">9:30 am</div>
+
+                    <div class="timeline-line">
+                        <span class="timeline-circle"></span>
+                    </div>
+
+                    <div class="timeline-content">
+                        <span>Payment recieved from john</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item ms-3 ">
+                    <div class="timeline-time">10:00 am</div>
+
+                    <div class="timeline-line">
+                        <span class="timeline-circle"></span>
+                    </div>
+
+                    <div class="timeline-content">
+                        <span>new saler recorded</span>
+                    </div>
+                </div>
+                <div class="timeline-item ms-3 mt-1">
+                    <div class="timeline-time">9:30 am</div>
+
+                    <div class="timeline-line">
+                        <span class="timeline-circle"></span>
+                    </div>
+
+                    <div class="timeline-content">
+                        <span>Payment recieved from john</span>
+                    </div>
+                </div>
+                <div class="timeline-item ms-3 mt-2">
+                    <div class="timeline-time">9:30 am</div>
+
+                    <div class="timeline-line">
+                        <span class="timeline-circle"></span>
+                    </div>
+
+                    <div class="timeline-content">
+                        <span>Payment recieved from john</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4  mt-4">
+            <div class="border border-1 rounded-3 shadow">
+                <h6 class="ms-2 mt-3 mb-0">Total Profit</h6>
+                <div id="storageRadial" class="p-0"></div>
+            </div>
+        </div>
+        <div class="col-md-4  mt-4">
+            <div class="border border-1 rounded-3 shadow">
+                <h6 class="ms-2 mt-3">Total sales</h6>
+                <div id="gaugeChart"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+            document.addEventListener("DOMContentLoaded", function () {
+
+            // =========================
+            // WEEKLY SALES
+            // =========================
+
+            var weeklySalesOptions = {
+                series: [{
+                    name: "Sales",
+                    data: [20, 35, 28, 45, 30, 25, 38]
+                }],
+
+                chart: {
+                    type: "bar",
+                    height: 75,
+                    toolbar: {
+                        show: false
+                    },
+                    sparkline: {
+                        enabled: true
+                    }
+                },
+
+                plotOptions: {
+                    bar: {
+                        columnWidth: "25%",
+                        borderRadius: 2
+                    }
+                },
+
+                colors: ["#2878e8"],
+
+                tooltip: {
+                    enabled: false
+                },
+
+                dataLabels: {
+                    enabled: false
+                },
+
+                yaxis: {
+                    show: false
+                },
+
+                xaxis: {
+                    show: false
+                },
+
+                grid: {
+                    show: false
+                }
+            };
+
+            var weeklySalesChart =
+                new ApexCharts(
+                    document.querySelector("#weeklySalesChart"),
+                    weeklySalesOptions
+                );
+
+            weeklySalesChart.render();
+
+
+            // =========================
+            // TOTAL ORDER
+            // =========================
+
+            var totalOrderOptions = {
+                series: [{
+                    name: "Orders",
+                    data: [20, 22, 25, 27, 32, 42, 48, 58]
+                }],
+
+                chart: {
+                    type: "area",
+                    height: 75,
+                    toolbar: {
+                        show: false
+                    },
+                    sparkline: {
+                        enabled: true
+                    }
+                },
+
+                stroke: {
+                    curve: "smooth",
+                    width: 2
+                },
+
+                colors: ["#2878e8"],
+
+                fill: {
+                    type: "gradient",
+                    gradient: {
+                        opacityFrom: 0.25,
+                        opacityTo: 0.02
+                    }
+                },
+
+                dataLabels: {
+                    enabled: false
+                },
+
+                tooltip: {
+                    enabled: false
+                },
+
+                xaxis: {
+                    show: false
+                },
+
+                yaxis: {
+                    show: false
+                },
+
+                grid: {
+                    show: false
+                }
+            };
+
+            var totalOrderChart =
+                new ApexCharts(
+                    document.querySelector("#totalOrderChart"),
+                    totalOrderOptions
+                );
+
+            totalOrderChart.render();
+
+
+            // =========================
+            // MARKET SHARE
+            // =========================
+
+            var marketShareOptions = {
+
+                series: [45, 30, 25],
+
+                chart: {
+                    type: "donut",
+                    height: 105,
+                    width: 105
+                },
+
+                labels: [
+                    "Samsung",
+                    "Huawei",
+                    "Apple"
+                ],
+
+                colors: [
+                    "#2878e8",
+                    "#31a9e8",
+                    "#d9e2ee"
+                ],
+
+                stroke: {
+                    width: 4,
+                    colors: ["#fff"]
+                },
+
+                plotOptions: {
+                    pie: {
+                        donut: {
+                            size: "72%",
+
+                            labels: {
+                                show: true,
+
+                                total: {
+                                    show: true,
+                                    label: "",
+                                    formatter: function () {
+                                        return "26M";
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+
+                dataLabels: {
+                    enabled: false
+                },
+
+                legend: {
+                    show: false
+                },
+
+                tooltip: {
+                    enabled: true
+                }
+            };
+
+            var marketShareChart =
+                new ApexCharts(
+                    document.querySelector("#marketShareChart"),
+                    marketShareOptions
+                );
+
+            marketShareChart.render();
+
+    // STORAGECHART
+
+              var options = {
+            series: [
+                {
+                    name: "Regular",
+                    data: [895]
+                },
+                {
+                    name: "System",
+                    data: [379]
+                },
+                {
+                    name: "Shared",
+                    data: [192]
+                },
+                {
+                    name: "Free",
+                    data: [576]
+                }
+            ],
+
+            chart: {
+                type: "bar",
+                height: 70,
+                stacked: true,
+                stackType: "100%",
+                toolbar: {
+                    show: false
+                }
+            },
+
+            plotOptions: {
+                bar: {
+                    horizontal: true,
+                    barHeight: "25%"
+                }
+            },
+
+            colors: [
+                "#2878E8",
+                "#20A7E8",
+                "#00B96B",
+                "#E9EEF5"
+            ],
+
+            xaxis: {
+                categories: [""],
+                labels: {
+                    show: false
+                },
+                axisBorder: {
+                    show: false
+                },
+                axisTicks: {
+                    show: false
+                }
+            },
+
+            yaxis: {
+                show: false
+            },
+
+            grid: {
+                show: false,
+                padding: {
+                    top: -10,
+                    bottom: -5,
+                    left: 0,
+                    right: 0
+                }
+            },
+
+            dataLabels: {
+                enabled: false
+            },
+
+            legend: {
+                show: true,
+                position: "bottom",
+                horizontalAlign: "left",
+                fontSize: "11px",
+                markers: {
+                    width: 8,
+                    height: 8,
+                    radius: 50
+                },
+                itemMargin: {
+                    horizontal: 8,
+                    vertical: 0
+                }
+            },
+
+            tooltip: {
+                y: {
+                    formatter: function (value) {
+                        return value + "MB";
+                    }
+                }
+            }
+        };
+
+        var chart = new ApexCharts(
+            document.querySelector("#storageChart"),
+            options
+        );
+
+        chart.render();
+
+
+        // SALESCHART
+                var options = {
+            series: [44, 19, 9, 28],
+
+            chart: {
+                type: "radialBar",
+                height: 250,
+            },
+
+            labels: [
+                "Regular",
+                "System",
+                "Shared",
+                "Free"
+            ],
+
+            colors: [
+                "#2878E8",
+                "#20A7E8",
+                "#00B96B",
+                "#E9EEF5"
+            ],
+
+            plotOptions: {
+                radialBar: {
+                    hollow: {
+                        size: "30%"
+                    },
+
+                    track: {
+                        background: "#f1f3f5"
+                    },
+
+                    dataLabels: {
+                        name: {
+                            fontSize: "12px"
+                        },
+
+                        value: {
+                            fontSize: "14px"
+                        },
+
+                        total: {
+                            show: true,
+                            label: "Storage",
+                            formatter: function () {
+                                return "2042 MB";
+                            }
+                        }
+                    }
+                }
+            },
+
+            legend: {
+                show: true,
+                position: "bottom",
+                fontSize: "11px",
+
+                markers: {
+                    width: 8,
+                    height: 8,
+                    radius: 50
+                },
+
+                itemMargin: {
+                    horizontal: 8,
+                    vertical: 3
+                }
+            },
+
+            stroke: {
+                lineCap: "round"
+            }
+        };
+
+        var chart = new ApexCharts(
+            document.querySelector("#storageRadial"),
+            options
+        );
+
+        chart.render();
+
+
+
+        // MIXEDCHART
+
+            var options = {
+            series: [
+                {
+                    name: "Orders",
+                    type: "column",
+                    data: [35, 45, 30, 55, 40, 70, 60, 80, 50, 65, 45, 75]
+                },
+                {
+                    name: "Sales",
+                    type: "line",
+                    data: [50, 65, 55, 75, 70, 100, 90, 120, 80, 105, 85, 130]
+                }
+            ],
+
+            chart: {
+                height: 274,
+                type: "line",
+                toolbar: {
+                    show: false
+                }
+            },
+
+            stroke: {
+                width: [0, 3],
+                curve: "smooth"
+            },
+
+            plotOptions: {
+                bar: {
+                    columnWidth: "45%",
+                    borderRadius: 3
+                }
+            },
+
+            colors: [
+                   "#cfe2ff",
+                    "#084298"
+            ],
+
+            dataLabels: {
+                enabled: false
+            },
+
+            xaxis: {
+                categories: [
+                    "Jan", "Feb", "Mar", "Apr",
+                    "May", "Jun", "Jul", "Aug",
+                    "Sep", "Oct", "Nov", "Dec"
+                ],
+
+                axisBorder: {
+                    show: false
+                },
+
+                axisTicks: {
+                    show: false
+                },
+
+                labels: {
+                    style: {
+                        colors: "#9CA3AF",
+                        fontSize: "11px"
+                    }
+                }
+            },
+
+            yaxis: {
+                labels: {
+                    style: {
+                        colors: "#9CA3AF",
+                        fontSize: "11px"
+                    }
+                }
+            },
+
+            grid: {
+                borderColor: "#E5E7EB",
+                strokeDashArray: 4
+            },
+
+            markers: {
+                size: 4,
+                colors: ["#fff"],
+                strokeColors: "#4964C7",
+                strokeWidth: 2
+            },
+
+            legend: {
+                position: "top",
+                horizontalAlign: "right",
+                fontSize: "12px"
+            },
+
+            tooltip: {
+                shared: true,
+                intersect: false
+            }
+        };
+
+        var chart = new ApexCharts(
+            document.querySelector("#mixedChart"),
+            options
+        );
+
+        chart.render();
+
+        // GAUGECHART
+
+            var options = {
+            series: [82],
+
+            chart: {
+                type: "radialBar",
+                height: 240,
+                sparkline: {
+                    enabled: true
+                }
+            },
+
+            plotOptions: {
+                radialBar: {
+                    startAngle: -90,
+                    endAngle: 90,
+
+                    hollow: {
+                        size: "60%"
+                    },
+
+                    track: {
+                        background: "#E9EDF5",
+                        strokeWidth: "100%"
+                    },
+
+                    dataLabels: {
+                        name: {
+                            show: true,
+                            offsetY: 25,
+                            fontSize: "13px",
+                            color: "#777"
+                        },
+
+                        value: {
+                            show: true,
+                            offsetY: -10,
+                            fontSize: "28px",
+                            fontWeight: 600,
+                            color: "#333",
+                            formatter: function (value) {
+                                return value + "%";
+                            }
+                        }
+                    }
+                }
+            },
+
+            colors: ["#4964C7"],
+
+            labels: ["Performance"],
+
+            stroke: {
+                lineCap: "round"
+            }
+        };
+
+        var chart = new ApexCharts(
+            document.querySelector("#gaugeChart"),
+            options
+        );
+
+        chart.render();
+
+        });
+
+
+
+</script>
